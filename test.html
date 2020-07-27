@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<form action="">
+  <div class="container">
+    <h1>Register with Us</h1>
+    <div class="content bg-light text ">
+        <label for="username"><b>Username</b></label><br>
+        <input type="text" placeholder="Enter username" name="username" id="username" min="3" required><br>
+        <div id="un"></div><br>
+        <label for="email"><b>Email</b></label><br>
+        <input type="email" placeholder="Enter email" name="email" id="email" required><br>
+        <div id="mail"></div><br>
+        <label for="password"><b>Password</b></label><br>
+        <input type="password" placeholder="Enter password" name="password" id="password" min="6" required><br>
+        <div id="pass"></div><br>
+        <label for="confirmpassword"><b>Confirm Password</b></label><br>
+        <input type="password" placeholder="Enter password again" name="confirmpassword" id="confirmpassword" min="6" required><br>
+        <div id="cpass"></div><br>
+        <button type="submit" class="registerbtn" id="btn" onsubmit="username()">Submit</button>
+    </div>
+  </div>
+</form>
+<script src="javascript/script.js"></script>
+</body>
+</html>
